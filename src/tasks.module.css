@@ -1,0 +1,29 @@
+.inputbox{
+    width: 50%;
+    align-self: center;
+    height: 25px;
+    display: flex;
+    align-content: center;
+    text-align: left;
+   margin: 10px;
+   background-color: rgb(246, 241, 241);
+   border :none;
+   color: black;
+   border-radius: 5px;
+   padding: 10px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2px;
+    justify-content: center;
+}
+
+.button{
+    background-color:rgb(58, 58, 231);
+    border-radius:5px;
+    padding: 10px;
+    color: white;
+}
