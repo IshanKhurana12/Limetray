@@ -75,7 +75,7 @@ const TaskList = () => {
       </div>
 
       <DragDropContext onDragEnd={onDragEnd}>
-        <Droppable droppableId="Tasks" type='group'>
+        <Droppable droppableId="Tasks" isDropDisabled={false} isCombineEnabled={false} ignoreContainerClipping={false} type='group'>
           {(provided,snapshot) => (
             <div className={styles.parent}
               ref={provided.innerRef}
